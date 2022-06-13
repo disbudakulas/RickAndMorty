@@ -25,7 +25,6 @@ const Character = (props: any) => {
 			.getCharacter(props?.route?.params?.item)
 			.then(res => {
 				setItem(res?.data);
-				console.log(res?.data);
 			})
 			.catch(() => {
 				showMessage({
