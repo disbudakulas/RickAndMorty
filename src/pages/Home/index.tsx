@@ -39,7 +39,6 @@ const Home = () => {
 			.then(res => {
 				setInfo(res?.data?.info);
 				setData(res?.data?.results);
-				console.log();
 			})
 			.catch(() => {
 				showMessage({
